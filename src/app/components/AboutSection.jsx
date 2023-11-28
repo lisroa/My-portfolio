@@ -11,12 +11,12 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>React</li>
         <li>Next.js</li>
+        <li>Vue.js</li>
+        <li>Angular.js</li>
         <li>React Native</li>
         <li>Node.js</li>
         <li>Tailwind</li>
         <li>Material UI</li>
-        <li>Boostrap</li>
-    
       </ul>
     ),
   },
@@ -25,12 +25,13 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Bachelor's degree in software development.</li>
-        <li>University of Argentina, of the company UADE.</li>
+        <li>
+          Bachelor's degree in software development. <br /> - University
+          Argentina company (UADE).
+        </li>
       </ul>
     ),
   },
-
 ];
 
 const AboutSection = () => {
@@ -53,9 +54,10 @@ const AboutSection = () => {
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
             working with React, React-Native, Next.js, Node.js, Tailwind.css,
-            Boostrap, Material UI, Sass, Javascript, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            Boostrap, Material UI, Sass, Javascript, HTML, CSS, and Git. I am a
+            quick learner and I am always looking to expand my knowledge and
+            skill set. I am a team player and I am excited to work with others
+            to create amazing applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
